@@ -1,1 +1,233 @@
-{}
+{
+    "sensors.cpu1Temp": {
+        "display_name": "sensors.cpu1Temp",
+        "units": "celcius",
+        "max": {
+            "critical": 96,
+            "non-recoverable": 98
+        },
+        "min": {
+            "critical": null,
+            "non-recoverable": null
+        },
+        "sig_figs": 2,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The temperature in celcius of CPU1.",
+        "notes": {
+            "sensor_info": {
+                "sensor_name": "CPU1 Temp",
+                "sensor_number": "41h"
+            }
+        },
+        "source": "ipmi-sensors",
+        "device": "CPU1 Temp sensor",
+        "vendors": "Dell PowerEdge C6220",
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    },
+    "sensors.cpu2Temp": {
+        "display_name": "sensors.cpu2Temp",
+        "units": "celcius",
+        "max": {
+            "critical": 96,
+            "non-recoverable": 98
+        },
+        "min": {
+            "critical": null,
+            "non-recoverable": null
+        },
+        "sig_figs": 2,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The temperature in celcius of CPU2.",
+        "notes": {
+            "sensor_info": {
+                "sensor_name": "CPU2 Temp",
+                "sensor_number": "42h"
+            }
+        },
+        "source": "ipmi-sensors",
+        "device": "CPU2 Temp sensor",
+        "vendors": "Dell PowerEdge C6220",
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    },
+    "sensors.dimmZone1Temp": {
+        "display_name": "sensors.dimmZone1Temp",
+        "units": "celcius",
+        "max": {
+            "critical": 87,
+            "non-recoverable": 92
+        },
+        "min": {
+            "critical": null,
+            "non-recoverable": null
+        },
+        "sig_figs": 2,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The temperature in celcius of memory DIMM zone 1.",
+        "notes": {
+            "sensor_info": {
+                "sensor_name": "DIMM ZONE 1Temp",
+                "sensor_number": "43h"
+            }
+        },
+        "source": "ipmi-sensors",
+        "device": "DIMM ZONE 1Temp sensor",
+        "vendors": "Dell PowerEdge C6220",
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    },
+    "sensors.dimmZone2Temp": {
+        "display_name": "sensors.dimmZone2Temp",
+        "units": "celcius",
+        "max": {
+            "critical": 87,
+            "non-recoverable": 92
+        },
+        "min": {
+            "critical": null,
+            "non-recoverable": null
+        },
+        "sig_figs": 2,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The temperature in celcius of memory DIMM zone 2.",
+        "notes": {
+            "sensor_info": {
+                "sensor_name": "DIMM ZONE 2Temp",
+                "sensor_number": "44h"
+            }
+        },
+        "source": "ipmi-sensors",
+        "device": "DIMM ZONE 1Temp sensor",
+        "vendors": "Dell PowerEdge C6220",
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    },
+    "sensors.inletTemp": {
+        "display_name": "sensors.inletTemp",
+        "units": "celcius",
+        "max": {
+            "critical": 39,
+            "non-recoverable": null
+        },
+        "min": {
+            "critical": null,
+            "non-recoverable": null
+        },
+        "sig_figs": 2,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The temperature in celcius at the inlet of the IT equipment.",
+        "notes": {
+            "sensor_info": {
+                "sensor_name": "Inlet Ambient Temp",
+                "sensor_number": null
+            }
+        },
+        "source": "ipmi-sensors",
+        "device": "Inlet Ambient Temp sensor",
+        "vendors": "Dell PowerEdge C6220",
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    },
+    "sensors.mezz1Temp": {
+        "display_name": "sensors.mezz1Temp",
+        "units": "celcius",
+        "max": {
+            "critical": 68,
+            "non-recoverable": 70
+        },
+        "min": {
+            "critical": null,
+            "non-recoverable": null
+        },
+        "sig_figs": 2,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The temperature in celcius of the mezzanine card.",
+        "notes": {
+            "sensor_info": {
+                "sensor_name": "MEZZ1 Temp",
+                "sensor_number": "41h"
+            }
+        },
+        "source": "ipmi-sensors",
+        "device": "MEZZ1 Temp sensor",
+        "vendors": "Dell PowerEdge C6220",
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    },
+    "sensors.pchTemp": {
+        "display_name": "sensors.pchTemp",
+        "units": "celcius",
+        "max": {
+            "critical": 85,
+            "non-recoverable": 88
+        },
+        "min": {
+            "critical": null,
+            "non-recoverable": null
+        },
+        "sig_figs": 2,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The temperature in celcius of the platform controller hub (PCH). The PCH controls I/O functions to the CPU, and support clocking (the system clock), Flexible Display Interface (FDI), and Direct Media Interface (DMI).",
+        "notes": {
+            "sensor_info": {
+                "sensor_name": "PCH Temp",
+                "sensor_number": "45h"
+            }
+        },
+        "source": "ipmi-sensors",
+        "device": "PCH Temp sensor",
+        "vendors": "Dell PowerEdge C6220",
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    }
+}

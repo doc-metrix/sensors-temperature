@@ -1,8 +1,8 @@
-{{ Specification Name }}
+Sensors-temperature Metrics
 ===
 
 
-## Description
+Temperature related sensor performance metrics.
 
 
 
