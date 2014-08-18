@@ -131,6 +131,204 @@
             "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
         ]
     },
+    "sensors.fan1": {
+        "display_name": "sensors.fan1",
+        "units": "RPM",
+        "max": {
+            "critical": 8960,
+            "non-recoverable": null
+        },
+        "min": {
+            "critical": 1540,
+            "non-recoverable": null
+        },
+        "sig_figs": 4,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The fan speed in revolutions per minute of fan 1.",
+        "notes": {
+            "sensor_info": {
+                "sensor_name": "FAN 1",
+                "sensor_number": "FAN_1"
+            }
+        },
+        "source": "ipmi-sensors",
+        "device": "FAN 1 sensor",
+        "vendors": "Dell PowerEdge C6220",
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    },
+    "sensors.fan2": {
+        "display_name": "sensors.fan2",
+        "units": "RPM",
+        "max": {
+            "critical": 8960,
+            "non-recoverable": null
+        },
+        "min": {
+            "critical": 1540,
+            "non-recoverable": null
+        },
+        "sig_figs": 4,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The fan speed in revolutions per minute of fan 2.",
+        "notes": {
+            "sensor_info": {
+                "sensor_name": "FAN 2",
+                "sensor_number": "FAN_2"
+            }
+        },
+        "source": "ipmi-sensors",
+        "device": "FAN 2 sensor",
+        "vendors": "Dell PowerEdge C6220",
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    },
+    "sensors.fan3": {
+        "display_name": "sensors.fan3",
+        "units": "RPM",
+        "max": {
+            "critical": 8960,
+            "non-recoverable": null
+        },
+        "min": {
+            "critical": 1540,
+            "non-recoverable": null
+        },
+        "sig_figs": 4,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The fan speed in revolutions per minute of fan 3.",
+        "notes": {
+            "sensor_info": {
+                "sensor_name": "FAN 3",
+                "sensor_number": "FAN_3"
+            }
+        },
+        "source": "ipmi-sensors",
+        "device": "FAN 3 sensor",
+        "vendors": "Dell PowerEdge C6220",
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    },
+    "sensors.fan4": {
+        "display_name": "sensors.fan4",
+        "units": "RPM",
+        "max": {
+            "critical": 8960,
+            "non-recoverable": null
+        },
+        "min": {
+            "critical": 1540,
+            "non-recoverable": null
+        },
+        "sig_figs": 4,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The fan speed in revolutions per minute of fan 4.",
+        "notes": {
+            "sensor_info": {
+                "sensor_name": "FAN 4",
+                "sensor_number": "FAN_4"
+            }
+        },
+        "source": "ipmi-sensors",
+        "device": "FAN 4 sensor",
+        "vendors": "Dell PowerEdge C6220",
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    },
+    "sensors.fan5": {
+        "display_name": "sensors.fan5",
+        "units": "RPM",
+        "max": {
+            "critical": 8960,
+            "non-recoverable": null
+        },
+        "min": {
+            "critical": 1540,
+            "non-recoverable": null
+        },
+        "sig_figs": 4,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The fan speed in revolutions per minute of fan 5.",
+        "notes": {
+            "sensor_info": {
+                "sensor_name": "FAN 5",
+                "sensor_number": "FAN_5"
+            }
+        },
+        "source": "ipmi-sensors",
+        "device": "FAN 5 sensor",
+        "vendors": "Dell PowerEdge C6220",
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    },
+    "sensors.fan6": {
+        "display_name": "sensors.fan6",
+        "units": "RPM",
+        "max": {
+            "critical": 8960,
+            "non-recoverable": null
+        },
+        "min": {
+            "critical": 1540,
+            "non-recoverable": null
+        },
+        "sig_figs": 4,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The fan speed in revolutions per minute of fan 6.",
+        "notes": {
+            "sensor_info": {
+                "sensor_name": "FAN 6",
+                "sensor_number": "FAN_6"
+            }
+        },
+        "source": "ipmi-sensors",
+        "device": "FAN 6 sensor",
+        "vendors": "Dell PowerEdge C6220",
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    },
     "sensors.inletTemp": {
         "display_name": "sensors.inletTemp",
         "units": "celcius",
