@@ -2,26 +2,15 @@
     "sensors.cpu{CPU_number}Temp": {
         "display_name": "sensors.cpu{CPU_number}Temp",
         "units": "celcius",
-        "max": {
-            "critical": 96,
-            "non-recoverable": 98
-        },
-        "min": {
-            "critical": null,
-            "non-recoverable": null
-        },
+        "max": null,
+        "min": null,
         "sig_figs": 2,
         "data_type": "numeric",
         "type": "raw",
         "formula" : null,
-        "variants": "^sensors\\.(cpu\\d+)Temp$",
+        "variants": "^sensors\\.(cpu[1-2])Temp$",
         "description": "The temperature in celcius of the CPU.",
-        "notes": {
-            "sensor_info": {
-                "sensor_name": "CPU1 Temp",
-                "sensor_number": "41h"
-            }
-        },
+        "notes": "For CPU1, the sensor name is 'CPU1 Temp', and the sensor ID is '41h'. For CPU2, the sensor name is 'CPU2 Temp', and the sensor ID is '42h'. For both, the upper critical temperature is 96C, and the upper non-recoverable temperature is 98C.",
         "source": "ipmi-sensors",
         "device": "temperature sensor of the specific CPU",
         "vendors": ["Dell PowerEdge C6220"],
@@ -35,28 +24,17 @@
     "sensors.dimmZone{dimmZone_number}Temp": {
         "display_name": "sensors.dimmZone{dimmZone_number}Temp",
         "units": "celcius",
-        "max": {
-            "critical": 87,
-            "non-recoverable": 92
-        },
-        "min": {
-            "critical": null,
-            "non-recoverable": null
-        },
+        "max": null,
+        "min": null,
         "sig_figs": 2,
         "data_type": "numeric",
         "type": "raw",
         "formula" : null,
-        "variants": "^sensors\\.(dimmZone\\d+)Temp$",
+        "variants": "^sensors\\.(dimmZone[1-2])Temp$",
         "description": "The temperature in celcius of the memory DIMM zone.",
-        "notes": {
-            "sensor_info": {
-                "sensor_name": "DIMM ZONE 1Temp",
-                "sensor_number": "43h"
-            }
-        },
+        "notes": "For DIMM zone 1, the sensor name is 'DIMM ZONE 1Temp', and the sensor ID is '43h'. For DIMM zone 2, the sensor name is 'DIMM ZONE 2Temp', and the sensor ID is '44h'. For both, the upper critical temperature is 87C, and the upper non-recoverable temperature is 92C.",
         "source": "ipmi-sensors",
-        "device": "temperature sensor of the specific dimm zone",
+        "device": "temperature sensor of the specific DIMM zone",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -68,26 +46,15 @@
     "sensors.fan{fan_number}": {
         "display_name": "sensors.fan{fan_number}",
         "units": "RPM",
-        "max": {
-            "critical": 8960,
-            "non-recoverable": null
-        },
-        "min": {
-            "critical": 1540,
-            "non-recoverable": null
-        },
+        "max": null,
+        "min": null,
         "sig_figs": 4,
         "data_type": "numeric",
         "type": "raw",
         "formula" : null,
-        "variants": "^sensors\\.(fan\\d+)$",
+        "variants": "^sensors\\.(fan[1-6])$",
         "description": "The fan speed in revolutions per minute of the fan.",
-        "notes": {
-            "sensor_info": {
-                "sensor_name": "FAN 1",
-                "sensor_number": "FAN_1"
-            }
-        },
+        "notes": "For fan 1 - 6, the fan ID is 'FAN_{fan_number}'. For all fans, the lower critical RPM is 1540, and the upper critical RPM is 8960.",
         "source": "ipmi-sensors",
         "device": "temperature sensor of the specific fan",
         "vendors": ["Dell PowerEdge C6220"],
@@ -101,26 +68,15 @@
     "sensors.inletTemp": {
         "display_name": "sensors.inletTemp",
         "units": "celcius",
-        "max": {
-            "critical": 39,
-            "non-recoverable": null
-        },
-        "min": {
-            "critical": null,
-            "non-recoverable": null
-        },
+        "max": null,
+        "min": null,
         "sig_figs": 2,
         "data_type": "numeric",
         "type": "raw",
         "formula" : null,
         "variants": null,
         "description": "The temperature in celcius at the inlet of the IT equipment.",
-        "notes": {
-            "sensor_info": {
-                "sensor_name": "Inlet Ambient Temp",
-                "sensor_number": null
-            }
-        },
+        "notes": "The sensor name is 'Inlet Ambient Temp'. The upper critical temperature is 39C.",
         "source": "ipmi-sensors",
         "device": "inlet ambient temperature sensor",
         "vendors": ["Dell PowerEdge C6220"],
@@ -134,26 +90,15 @@
     "sensors.mezz{mezzanine_card_number}Temp": {
         "display_name": "sensors.mezz{mezzanine_card_number}Temp",
         "units": "celcius",
-        "max": {
-            "critical": 68,
-            "non-recoverable": 70
-        },
-        "min": {
-            "critical": null,
-            "non-recoverable": null
-        },
+        "max": null,
+        "min": null,
         "sig_figs": 2,
         "data_type": "numeric",
         "type": "raw",
         "formula" : null,
-        "variants": "^sensors\\.(mezz\\d+)Temp$",
+        "variants": "^sensors\\.(mezz[1-2])Temp$",
         "description": "The temperature in celcius of the mezzanine card.",
-        "notes": {
-            "sensor_info": {
-                "sensor_name": "MEZZ1 Temp",
-                "sensor_number": "41h"
-            }
-        },
+        "notes": "For mezzanine card 1, the sensor name is 'MEZZ1 Temp'. For mezzanine card 2, the sensor name is 'MEZZ2 Temp'. For both mezzanine cards, the upper critical temperature is 68C, and the upper non-recoverable temperature is 70C.",
         "source": "ipmi-sensors",
         "device": "temperature sensor of the specific mezzanine card",
         "vendors": ["Dell PowerEdge C6220"],
@@ -167,26 +112,15 @@
     "sensors.pchTemp": {
         "display_name": "sensors.pchTemp",
         "units": "celcius",
-        "max": {
-            "critical": 85,
-            "non-recoverable": 88
-        },
-        "min": {
-            "critical": null,
-            "non-recoverable": null
-        },
+        "max": null,
+        "min": null,
         "sig_figs": 2,
         "data_type": "numeric",
         "type": "raw",
         "formula" : null,
         "variants": null,
         "description": "The temperature in celcius of the platform controller hub (PCH). The PCH controls I/O functions to the CPU, and support clocking (the system clock), Flexible Display Interface (FDI), and Direct Media Interface (DMI).",
-        "notes": {
-            "sensor_info": {
-                "sensor_name": "PCH Temp",
-                "sensor_number": "45h"
-            }
-        },
+        "notes": "The sensor name is 'PCH Temp', and the sensor ID is '45h'. The upper critical temperature is 85C, and the upper non-recoverable temperature is 88C.",
         "source": "ipmi-sensors",
         "device": "PCH temperature sensor",
         "vendors": ["Dell PowerEdge C6220"],
