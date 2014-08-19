@@ -18,7 +18,8 @@
         "refs": [
             "http://www.gnu.org/software/freeipmi/",
             "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
-            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html",
+            "http://www.dell.com/us/business/p/poweredge-c6220/pd"
         ]
     },
     "sensors.dimmZone{dimmZone_number}Temp": {
@@ -40,7 +41,8 @@
         "refs": [
             "http://www.gnu.org/software/freeipmi/",
             "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
-            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html",
+            "http://www.dell.com/us/business/p/poweredge-c6220/pd"
         ]
     },
     "sensors.fan{fan_number}": {
@@ -87,8 +89,8 @@
             "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
         ]
     },
-    "sensors.mezz{mezzanine_card_number}Temp": {
-        "display_name": "sensors.mezz{mezzanine_card_number}Temp",
+    "sensors.mezz1Temp": {
+        "display_name": "sensors.mezz1Temp",
         "units": "celcius",
         "max": null,
         "min": null,
@@ -96,17 +98,18 @@
         "data_type": "numeric",
         "type": "raw",
         "formula" : null,
-        "variants": "^sensors\\.(mezz[1-2])Temp$",
+        "variants": null,
         "description": "The temperature in celcius of the mezzanine card.",
-        "notes": "For mezzanine card 1, the sensor name is 'MEZZ1 Temp'. For mezzanine card 2, the sensor name is 'MEZZ2 Temp'. For both mezzanine cards, the upper critical temperature is 68C, and the upper non-recoverable temperature is 70C.",
+        "notes": "The sensor name is 'MEZZ1 Temp', and the sensor ID is '41h'. The upper critical temperature is 68C, and the upper non-recoverable temperature is 70C.",
         "source": "ipmi-sensors",
-        "device": "temperature sensor of the specific mezzanine card",
+        "device": "temperature sensor of the mezzanine card",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
             "http://www.gnu.org/software/freeipmi/",
             "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
-            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html",
+            "http://www.dell.com/us/business/p/poweredge-c6220/pd"
         ]
     },
     "sensors.pchTemp": {
@@ -128,7 +131,8 @@
         "refs": [
             "http://www.gnu.org/software/freeipmi/",
             "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
-            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html",
+            "http://www.dell.com/us/business/p/poweredge-c6220/pd"
         ]
     }
 }
