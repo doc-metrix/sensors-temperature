@@ -1,6 +1,6 @@
 {
     "sensors.cpu{CPU_number}Temp": {
-        "display_name": "sensors.cpu{CPU_number}Temp",
+        "display_name": "CPU Temperature",
         "units": "celcius",
         "max": null,
         "min": null,
@@ -25,7 +25,7 @@
         ]
     },
     "sensors.dimmZone{dimmZone_number}Temp": {
-        "display_name": "sensors.dimmZone{dimmZone_number}Temp",
+        "display_name": "DIMM Zone Temperature",
         "units": "celcius",
         "max": null,
         "min": null,
@@ -50,7 +50,7 @@
         ]
     },
     "sensors.fan{fan_number}": {
-        "display_name": "sensors.fan{fan_number}",
+        "display_name": "Fan Speed",
         "units": "RPM",
         "max": null,
         "min": null,
@@ -74,7 +74,7 @@
         ]
     },
     "sensors.inletTemp": {
-        "display_name": "sensors.inletTemp",
+        "display_name": "Inlet Temperature",
         "units": "celcius",
         "max": null,
         "min": null,
@@ -98,7 +98,7 @@
         ]
     },
     "sensors.mezz1Temp": {
-        "display_name": "sensors.mezz1Temp",
+        "display_name": "Mezzanine Card Temperature",
         "units": "celcius",
         "max": null,
         "min": null,
@@ -123,7 +123,7 @@
         ]
     },
     "sensors.pchTemp": {
-        "display_name": "sensors.pchTemp",
+        "display_name": "PCH Temperature",
         "units": "celcius",
         "max": null,
         "min": null,
