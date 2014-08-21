@@ -7,7 +7,7 @@
         "sig_figs": 2,
         "data_type": "numeric",
         "type": "raw",
-        "formula" : null,
+        "formula": null,
         "description": "The temperature in celcius of the CPU.",
         "notes": "For CPU1, the sensor name is 'CPU1 Temp', and the sensor ID is '41h'. For CPU2, the sensor name is 'CPU2 Temp', and the sensor ID is '42h'. For both, the upper critical temperature is 96C, and the upper non-recoverable temperature is 98C.",
         "source": {
@@ -31,7 +31,7 @@
         "sig_figs": 2,
         "data_type": "numeric",
         "type": "raw",
-        "formula" : null,
+        "formula": null,
         "description": "The temperature in celcius of the memory DIMM zone.",
         "notes": "For DIMM zone 1, the sensor name is 'DIMM ZONE 1Temp', and the sensor ID is '43h'. For DIMM zone 2, the sensor name is 'DIMM ZONE 2Temp', and the sensor ID is '44h'. For both, the upper critical temperature is 87C, and the upper non-recoverable temperature is 92C.",
         "source": {
@@ -55,7 +55,7 @@
         "sig_figs": 4,
         "data_type": "numeric",
         "type": "raw",
-        "formula" : null,
+        "formula": null,
         "description": "The fan speed in revolutions per minute of the fan.",
         "notes": "For fan 1 - 6, the fan ID is 'FAN_{fan_number}'. For all fans, the lower critical RPM is 1540, and the upper critical RPM is 8960.",
         "source": {
@@ -78,7 +78,7 @@
         "sig_figs": 2,
         "data_type": "numeric",
         "type": "raw",
-        "formula" : null,
+        "formula": null,
         "description": "The temperature in celcius at the inlet of the IT equipment.",
         "notes": "The sensor name is 'Inlet Ambient Temp'. The upper critical temperature is 39C.",
         "source": {
@@ -101,7 +101,7 @@
         "sig_figs": 2,
         "data_type": "numeric",
         "type": "raw",
-        "formula" : null,
+        "formula": null,
         "description": "The temperature in celcius of the mezzanine card.",
         "notes": "The sensor name is 'MEZZ1 Temp', and the sensor ID is '41h'. The upper critical temperature is 68C, and the upper non-recoverable temperature is 70C.",
         "source": {
@@ -125,7 +125,7 @@
         "sig_figs": 2,
         "data_type": "numeric",
         "type": "raw",
-        "formula" : null,
+        "formula": null,
         "description": "The temperature in celcius of the platform controller hub (PCH). The PCH controls I/O functions to the CPU, and support clocking (the system clock), Flexible Display Interface (FDI), and Direct Media Interface (DMI).",
         "notes": "The sensor name is 'PCH Temp', and the sensor ID is '45h'. The upper critical temperature is 85C, and the upper non-recoverable temperature is 88C.",
         "source": {
