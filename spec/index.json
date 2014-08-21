@@ -13,7 +13,7 @@
         "source": {
             "^linux\\skernel": ["ipmi-sensors"]
         },
-        "device": "^sensors\\.(cpu[1-2])Temp$",
+        "device": "temperature sensor of the specific CPU",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -37,7 +37,7 @@
         "source": {
             "^linux\\skernel": ["ipmi-sensors"]
         },
-        "device": "^sensors\\.(dimmZone[1-2])Temp$",
+        "device": "temperature sensor of the specific DIMM zone",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -61,7 +61,7 @@
         "source": {
             "^linux\\skernel": ["ipmi-sensors"]
         },
-        "device": "^sensors\\.(fan[1-6])$",
+        "device": "speed sensor of the specific fan",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
