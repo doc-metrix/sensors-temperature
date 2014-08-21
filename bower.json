@@ -1,0 +1,31 @@
+{
+  "name": "doc-metrix-sensors-temperature",
+  "version": "0.0.0",
+  "description": "A specification for temperature sensor metrics.",
+  "authors": [
+    {
+      "name": "Nick Wei",
+      "email": "nick@nodeprime.com"
+    }
+  ],
+  "main": "spec/index.json",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/doc-metrix/sensors-temperature.git"
+  },
+  "keywords": [
+    "doc-metrix",
+    "specification",
+    "temperature",
+    "sensor",
+    "metrics",
+    "documentation"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "ignore": [
+    "TODO.md",
+    ".*"
+  ],
+  "license": "MIT"
+}
