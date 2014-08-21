@@ -14,7 +14,7 @@
         "source": {
             "^linux\\skernel": ["ipmi-sensors"]
         },
-        "device": "temperature sensor of the specific CPU",
+        "device": "^sensors\\.(cpu[1-2])Temp$",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -39,7 +39,7 @@
         "source": {
             "^linux\\skernel": ["ipmi-sensors"]
         },
-        "device": "temperature sensor of the specific DIMM zone",
+        "device": "^sensors\\.(dimmZone[1-2])Temp$",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -64,7 +64,7 @@
         "source": {
             "^linux\\skernel": ["ipmi-sensors"]
         },
-        "device": "temperature sensor of the specific fan",
+        "device": "^sensors\\.(fan[1-6])$",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -112,7 +112,7 @@
         "source": {
             "^linux\\skernel": ["ipmi-sensors"]
         },
-        "device": "temperature sensor of the mezzanine card",
+        "device": "mezzanine card temperature sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
