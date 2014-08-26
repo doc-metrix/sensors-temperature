@@ -1,21 +1,17 @@
 {
     "sensors.cpu{CPU_number}Temp": {
-        "display_name": "CPU Temperature",
+        "displayName": "CPU Temperature",
         "units": "C",
         "max": null,
         "min": null,
-        "sig_figs": 2,
-        "data_type": "integer",
+        "sigFigs": 2,
+        "dataType": "integer",
         "type": "raw",
         "formula": null,
         "description": "The temperature in celcius of the CPU.",
         "notes": "For CPU1, the sensor name is 'CPU1 Temp', and the sensor ID is '41h'. For CPU2, the sensor name is 'CPU2 Temp', and the sensor ID is '42h'. For both, the upper critical temperature is 96C, and the upper non-recoverable temperature is 98C.",
         "platforms": {
-            "linux": {
-                "ubuntu": {
-                    "*": ["ipmi-sensors"]
-                }
-            }
+            "linux": ["ipmi-sensors"]
         },
         "device": "temperature sensor of the specific CPU",
         "vendors": ["Dell PowerEdge C6220"],
@@ -28,22 +24,18 @@
         ]
     },
     "sensors.deltaCPUTemp": {
-        "display_name": "Delta CPU Temperature",
+        "displayName": "Delta CPU Temperature",
         "units": "C",
         "max": null,
         "min": null,
-        "sig_figs": 2,
-        "data_type": "integer",
+        "sigFigs": 2,
+        "dataType": "integer",
         "type": "derived",
         "formula": "absolute(T_{CPU1}-T_{CPU2})",
         "description": "The absolute difference in temperature between CPU1 and CPU2.",
         "notes": "",
         "platforms": {
-            "linux": {
-                "ubuntu": {
-                    "*": ["ipmi-sensors"]
-                }
-            }
+            "linux": ["ipmi-sensors"]
         },
         "device": "CPU temperature sensors",
         "vendors": ["Dell PowerEdge C6220"],
@@ -56,22 +48,18 @@
         ]
     },
     "sensors.dimmZone{dimmZone_number}Temp": {
-        "display_name": "DIMM Zone Temperature",
+        "displayName": "DIMM Zone Temperature",
         "units": "C",
         "max": null,
         "min": null,
-        "sig_figs": 2,
-        "data_type": "integer",
+        "sigFigs": 2,
+        "dataType": "integer",
         "type": "raw",
         "formula": null,
         "description": "The temperature in celcius of the memory DIMM zone.",
         "notes": "For DIMM zone 1, the sensor name is 'DIMM ZONE 1Temp', and the sensor ID is '43h'. For DIMM zone 2, the sensor name is 'DIMM ZONE 2Temp', and the sensor ID is '44h'. For both, the upper critical temperature is 87C, and the upper non-recoverable temperature is 92C.",
         "platforms": {
-            "linux": {
-                "ubuntu": {
-                    "*": ["ipmi-sensors"]
-                }
-            }
+            "linux": ["ipmi-sensors"]
         },
         "device": "temperature sensor of the specific DIMM zone",
         "vendors": ["Dell PowerEdge C6220"],
@@ -84,22 +72,18 @@
         ]
     },
     "sensors.deltaDIMMZoneTemp": {
-        "display_name": "Delta DIMM Zone Temperature",
+        "displayName": "Delta DIMM Zone Temperature",
         "units": "C",
         "max": null,
         "min": null,
-        "sig_figs": 2,
-        "data_type": "integer",
+        "sigFigs": 2,
+        "dataType": "integer",
         "type": "derived",
         "formula": "absolute(T_{DIMMZone1}-T_{DIMMZone2})",
         "description": "The absolute difference in temperature between DIMM Zone 1 and DIMM Zone 2.",
         "notes": "",
         "platforms": {
-            "linux": {
-                "ubuntu": {
-                    "*": ["ipmi-sensors"]
-                }
-            }
+            "linux": ["ipmi-sensors"]
         },
         "device": "DIMM zone temperature sensors",
         "vendors": ["Dell PowerEdge C6220"],
@@ -112,22 +96,18 @@
         ]
     },
     "sensors.fan{fan_number}": {
-        "display_name": "Fan Speed",
+        "displayName": "Fan Speed",
         "units": "RPM",
         "max": null,
         "min": null,
-        "sig_figs": 4,
-        "data_type": "integer",
+        "sigFigs": 4,
+        "dataType": "integer",
         "type": "raw",
         "formula": null,
         "description": "The fan speed in revolutions per minute of the fan.",
         "notes": "For fan 1 - 6, the fan ID is 'FAN_{fan_number}'. For all fans, the lower critical RPM is 1540, and the upper critical RPM is 8960.",
         "platforms": {
-            "linux": {
-                "ubuntu": {
-                    "*": ["ipmi-sensors"]
-                }
-            }
+            "linux": ["ipmi-sensors"]
         },
         "device": "speed sensor of the specific fan",
         "vendors": ["Dell PowerEdge C6220"],
@@ -139,22 +119,18 @@
         ]
     },
     "sensors.inletTemp": {
-        "display_name": "Inlet Temperature",
+        "displayName": "Inlet Temperature",
         "units": "C",
         "max": null,
         "min": null,
-        "sig_figs": 2,
-        "data_type": "integer",
+        "sigFigs": 2,
+        "dataType": "integer",
         "type": "raw",
         "formula": null,
         "description": "The temperature in celcius at the inlet of the IT equipment.",
         "notes": "The sensor name is 'Inlet Ambient Temp'. The upper critical temperature is 39C.",
         "platforms": {
-            "linux": {
-                "ubuntu": {
-                    "*": ["ipmi-sensors"]
-                }
-            }
+            "linux": ["ipmi-sensors"]
         },
         "device": "inlet ambient temperature sensor",
         "vendors": ["Dell PowerEdge C6220"],
@@ -166,22 +142,18 @@
         ]
     },
     "sensors.mezz1Temp": {
-        "display_name": "Mezzanine Card Temperature",
+        "displayName": "Mezzanine Card Temperature",
         "units": "C",
         "max": null,
         "min": null,
-        "sig_figs": 2,
-        "data_type": "integer",
+        "sigFigs": 2,
+        "dataType": "integer",
         "type": "raw",
         "formula": null,
         "description": "The temperature in celcius of the mezzanine card.",
         "notes": "The sensor name is 'MEZZ1 Temp', and the sensor ID is '41h'. The upper critical temperature is 68C, and the upper non-recoverable temperature is 70C.",
         "platforms": {
-            "linux": {
-                "ubuntu": {
-                    "*": ["ipmi-sensors"]
-                }
-            }
+            "linux": ["ipmi-sensors"]
         },
         "device": "mezzanine card temperature sensor",
         "vendors": ["Dell PowerEdge C6220"],
@@ -194,22 +166,18 @@
         ]
     },
     "sensors.pchTemp": {
-        "display_name": "PCH Temperature",
+        "displayName": "PCH Temperature",
         "units": "C",
         "max": null,
         "min": null,
-        "sig_figs": 2,
-        "data_type": "integer",
+        "sigFigs": 2,
+        "dataType": "integer",
         "type": "raw",
         "formula": null,
         "description": "The temperature in celcius of the platform controller hub (PCH). The PCH controls I/O functions to the CPU, and support clocking (the system clock), Flexible Display Interface (FDI), and Direct Media Interface (DMI).",
         "notes": "The sensor name is 'PCH Temp', and the sensor ID is '45h'. The upper critical temperature is 85C, and the upper non-recoverable temperature is 88C.",
         "platforms": {
-            "linux": {
-                "ubuntu": {
-                    "*": ["ipmi-sensors"]
-                }
-            }
+            "linux": ["ipmi-sensors"]
         },
         "device": "PCH temperature sensor",
         "vendors": ["Dell PowerEdge C6220"],
