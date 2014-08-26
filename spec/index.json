@@ -27,6 +27,34 @@
             "http://www.dell.com/us/business/p/poweredge-c6220/pd"
         ]
     },
+    "sensors.deltaCPUTemp": {
+        "display_name": "Delta CPU Temperature",
+        "units": "C",
+        "max": null,
+        "min": null,
+        "sig_figs": 2,
+        "data_type": "integer",
+        "type": "derived",
+        "formula": "absolute(T_{CPU1}-T_{CPU2})",
+        "description": "The absolute difference in temperature between CPU1 and CPU2.",
+        "notes": "",
+        "platforms": {
+            "linux": {
+                "ubuntu": {
+                    "*": ["ipmi-sensors"]
+                }
+            }
+        },
+        "device": "CPU temperature sensors",
+        "vendors": ["Dell PowerEdge C6220"],
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html",
+            "http://www.dell.com/us/business/p/poweredge-c6220/pd"
+        ]
+    },
     "sensors.dimmZone{dimmZone_number}Temp": {
         "display_name": "DIMM Zone Temperature",
         "units": "C",
@@ -46,6 +74,34 @@
             }
         },
         "device": "temperature sensor of the specific DIMM zone",
+        "vendors": ["Dell PowerEdge C6220"],
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html",
+            "http://www.dell.com/us/business/p/poweredge-c6220/pd"
+        ]
+    },
+    "sensors.deltaDIMMZoneTemp": {
+        "display_name": "Delta DIMM Zone Temperature",
+        "units": "C",
+        "max": null,
+        "min": null,
+        "sig_figs": 2,
+        "data_type": "integer",
+        "type": "derived",
+        "formula": "absolute(T_{DIMMZone1}-T_{DIMMZone2})",
+        "description": "The absolute difference in temperature between DIMM Zone 1 and DIMM Zone 2.",
+        "notes": "",
+        "platforms": {
+            "linux": {
+                "ubuntu": {
+                    "*": ["ipmi-sensors"]
+                }
+            }
+        },
+        "device": "DIMM zone temperature sensors",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
