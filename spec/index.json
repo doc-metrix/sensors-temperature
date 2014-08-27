@@ -1,6 +1,6 @@
 {
-    "sensors.cpu{CPU_number}Temp": {
-        "displayName": "CPU Temperature",
+    "sensors.cpu1Temp": {
+        "displayName": "CPU1 Temperature",
         "units": "C",
         "max": null,
         "min": null,
@@ -8,12 +8,36 @@
         "dataType": "integer",
         "type": "raw",
         "formula": null,
-        "description": "The temperature in celcius of the CPU.",
-        "notes": "For CPU1, the sensor name is 'CPU1 Temp', and the sensor ID is '41h'. For CPU2, the sensor name is 'CPU2 Temp', and the sensor ID is '42h'. For both, the upper critical temperature is 96C, and the upper non-recoverable temperature is 98C.",
+        "description": "The temperature in celcius of CPU1.",
+        "notes": "The sensor name is 'CPU1 Temp', and the sensor ID is '41h'. The upper critical temperature is 96C, and the upper non-recoverable temperature is 98C.",
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "temperature sensor of the specific CPU",
+        "device": "temperature sensor of CPU1",
+        "vendors": ["Dell PowerEdge C6220"],
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html",
+            "http://www.dell.com/us/business/p/poweredge-c6220/pd"
+        ]
+    },
+    "sensors.cpu2Temp": {
+        "displayName": "CPU2 Temperature",
+        "units": "C",
+        "max": null,
+        "min": null,
+        "sigFigs": 2,
+        "dataType": "integer",
+        "type": "raw",
+        "formula": null,
+        "description": "The temperature in celcius of CPU2.",
+        "notes": "The sensor name is 'CPU2 Temp', and the sensor ID is '42h'. The upper critical temperature is 96C, and the upper non-recoverable temperature is 98C.",
+        "platforms": {
+            "linux": ["ipmi-sensors"]
+        },
+        "device": "temperature sensor of CPU2",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -47,8 +71,8 @@
             "http://www.dell.com/us/business/p/poweredge-c6220/pd"
         ]
     },
-    "sensors.dimmZone{dimmZone_number}Temp": {
-        "displayName": "DIMM Zone Temperature",
+    "sensors.dimmZone1Temp": {
+        "displayName": "DIMM Zone 1 Temperature",
         "units": "C",
         "max": null,
         "min": null,
@@ -56,12 +80,36 @@
         "dataType": "integer",
         "type": "raw",
         "formula": null,
-        "description": "The temperature in celcius of the memory DIMM zone.",
-        "notes": "For DIMM zone 1, the sensor name is 'DIMM ZONE 1Temp', and the sensor ID is '43h'. For DIMM zone 2, the sensor name is 'DIMM ZONE 2Temp', and the sensor ID is '44h'. For both, the upper critical temperature is 87C, and the upper non-recoverable temperature is 92C.",
+        "description": "The temperature in celcius of DIMM zone 1.",
+        "notes": "The sensor name is 'DIMM ZONE 1Temp', and the sensor ID is '43h'. The upper critical temperature is 87C, and the upper non-recoverable temperature is 92C.",
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "temperature sensor of the specific DIMM zone",
+        "device": "temperature sensor of DIMM zone 1",
+        "vendors": ["Dell PowerEdge C6220"],
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html",
+            "http://www.dell.com/us/business/p/poweredge-c6220/pd"
+        ]
+    },
+    "sensors.dimmZone2Temp": {
+        "displayName": "DIMM Zone 2 Temperature",
+        "units": "C",
+        "max": null,
+        "min": null,
+        "sigFigs": 2,
+        "dataType": "integer",
+        "type": "raw",
+        "formula": null,
+        "description": "The temperature in celcius of DIMM zone 2.",
+        "notes": "The sensor name is 'DIMM ZONE 2Temp', and the sensor ID is '44h'. The upper critical temperature is 87C, and the upper non-recoverable temperature is 92C.",
+        "platforms": {
+            "linux": ["ipmi-sensors"]
+        },
+        "device": "temperature sensor of DIMM zone 2",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -95,8 +143,8 @@
             "http://www.dell.com/us/business/p/poweredge-c6220/pd"
         ]
     },
-    "sensors.fan{fan_number}": {
-        "displayName": "Fan Speed",
+    "sensors.fan1": {
+        "displayName": "Fan 1 Speed",
         "units": "RPM",
         "max": null,
         "min": null,
@@ -104,12 +152,127 @@
         "dataType": "integer",
         "type": "raw",
         "formula": null,
-        "description": "The fan speed in revolutions per minute of the fan.",
-        "notes": "For fan 1 - 6, the fan ID is 'FAN_{fan_number}'. For all fans, the lower critical RPM is 1540, and the upper critical RPM is 8960.",
+        "description": "The fan speed in revolutions per minute of fan 1.",
+        "notes": "The fan ID is 'FAN_1'. The lower critical RPM is 1540, and the upper critical RPM is 8960.",
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "speed sensor of the specific fan",
+        "device": "speed sensor of fan 1",
+        "vendors": ["Dell PowerEdge C6220"],
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    },
+    "sensors.fan2": {
+        "displayName": "Fan 2 Speed",
+        "units": "RPM",
+        "max": null,
+        "min": null,
+        "sigFigs": 4,
+        "dataType": "integer",
+        "type": "raw",
+        "formula": null,
+        "description": "The fan speed in revolutions per minute of fan 2.",
+        "notes": "The fan ID is 'FAN_2'. The lower critical RPM is 1540, and the upper critical RPM is 8960.",
+        "platforms": {
+            "linux": ["ipmi-sensors"]
+        },
+        "device": "speed sensor of fan 2",
+        "vendors": ["Dell PowerEdge C6220"],
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    },
+    "sensors.fan3": {
+        "displayName": "Fan 3 Speed",
+        "units": "RPM",
+        "max": null,
+        "min": null,
+        "sigFigs": 4,
+        "dataType": "integer",
+        "type": "raw",
+        "formula": null,
+        "description": "The fan speed in revolutions per minute of fan 3.",
+        "notes": "The fan ID is 'FAN_3'. The lower critical RPM is 1540, and the upper critical RPM is 8960.",
+        "platforms": {
+            "linux": ["ipmi-sensors"]
+        },
+        "device": "speed sensor of fan 3",
+        "vendors": ["Dell PowerEdge C6220"],
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    },
+    "sensors.fan4": {
+        "displayName": "Fan 4 Speed",
+        "units": "RPM",
+        "max": null,
+        "min": null,
+        "sigFigs": 4,
+        "dataType": "integer",
+        "type": "raw",
+        "formula": null,
+        "description": "The fan speed in revolutions per minute of fan 4.",
+        "notes": "The fan ID is 'FAN_4'. The lower critical RPM is 1540, and the upper critical RPM is 8960.",
+        "platforms": {
+            "linux": ["ipmi-sensors"]
+        },
+        "device": "speed sensor of fan 4",
+        "vendors": ["Dell PowerEdge C6220"],
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    },
+    "sensors.fan5": {
+        "displayName": "Fan 5 Speed",
+        "units": "RPM",
+        "max": null,
+        "min": null,
+        "sigFigs": 4,
+        "dataType": "integer",
+        "type": "raw",
+        "formula": null,
+        "description": "The fan speed in revolutions per minute of fan 5.",
+        "notes": "The fan ID is 'FAN_5'. The lower critical RPM is 1540, and the upper critical RPM is 8960.",
+        "platforms": {
+            "linux": ["ipmi-sensors"]
+        },
+        "device": "speed sensor of fan 5",
+        "vendors": ["Dell PowerEdge C6220"],
+        "classification": "sensors",
+        "refs": [
+            "http://www.gnu.org/software/freeipmi/",
+            "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt",
+            "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
+        ]
+    },
+    "sensors.fan6": {
+        "displayName": "Fan 6 Speed",
+        "units": "RPM",
+        "max": null,
+        "min": null,
+        "sigFigs": 4,
+        "dataType": "integer",
+        "type": "raw",
+        "formula": null,
+        "description": "The fan speed in revolutions per minute of fan 6.",
+        "notes": "The fan ID is 'FAN_6'. The lower critical RPM is 1540, and the upper critical RPM is 8960.",
+        "platforms": {
+            "linux": ["ipmi-sensors"]
+        },
+        "device": "speed sensor of fan 6",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
