@@ -13,7 +13,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "CPU1 temperature sensor",
+        "device": ["CPU1 temperature sensor"],
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -37,7 +37,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "CPU2 temperature sensor",
+        "device": ["CPU2 temperature sensor"],
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -61,7 +61,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "CPU temperature sensors",
+        "device": ["CPU temperature sensors"],
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -85,7 +85,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "DIMM zone 1 temperature sensor",
+        "device": ["DIMM zone 1 temperature sensor"],
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -109,7 +109,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "DIMM zone 2 temperature sensor",
+        "device": ["DIMM zone 2 temperature sensor"],
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -133,7 +133,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "DIMM zone temperature sensors",
+        "device": ["DIMM zone temperature sensors"],
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -157,7 +157,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "fan 1 speed sensor",
+        "device": ["fan 1 speed sensor"],
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -180,7 +180,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "fan 2 speed sensor",
+        "device": ["fan 2 speed sensor"],
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -203,7 +203,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "fan 3 speed sensor",
+        "device": ["fan 3 speed sensor"],
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -226,7 +226,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "fan 4 speed sensor",
+        "device": ["fan 4 speed sensor"],
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -249,7 +249,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "fan 5 speed sensor",
+        "device": ["fan 5 speed sensor"],
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -272,7 +272,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "fan 6 speed sensor",
+        "device": ["fan 6 speed sensor"],
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -295,7 +295,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "inlet ambient temperature sensor",
+        "device": ["inlet ambient temperature sensor"],
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -318,7 +318,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "mezzanine card temperature sensor",
+        "device": ["mezzanine card temperature sensor"],
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -342,7 +342,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "PCH temperature sensor",
+        "device": ["PCH temperature sensor"],
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
