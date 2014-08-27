@@ -13,7 +13,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "temperature sensor of CPU1",
+        "device": "CPU1 temperature sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -37,7 +37,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "temperature sensor of CPU2",
+        "device": "CPU2 temperature sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -85,7 +85,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "temperature sensor of DIMM zone 1",
+        "device": "DIMM zone 1 temperature sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -109,7 +109,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "temperature sensor of DIMM zone 2",
+        "device": "DIMM zone 2 temperature sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -157,7 +157,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "speed sensor of fan 1",
+        "device": "fan 1 speed sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -180,7 +180,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "speed sensor of fan 2",
+        "device": "fan 2 speed sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -203,7 +203,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "speed sensor of fan 3",
+        "device": "fan 3 speed sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -226,7 +226,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "speed sensor of fan 4",
+        "device": "fan 4 speed sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -249,7 +249,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "speed sensor of fan 5",
+        "device": "fan 5 speed sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -272,7 +272,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "speed sensor of fan 6",
+        "device": "fan 6 speed sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
